@@ -15,6 +15,7 @@
 		C3C91A4518024055005D5EFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C91A2D18024055005D5EFC /* UIKit.framework */; };
 		C3EEF46A180243CE002E99E7 /* BDKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEF466180243CE002E99E7 /* BDKAppDelegate.m */; };
 		C3EEF46C180243CE002E99E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEF469180243CE002E99E7 /* main.m */; };
+		C3EEF472180248E6002E99E7 /* BDKSlideController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEF471180248E6002E99E7 /* BDKSlideController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 		C3EEF469180243CE002E99E7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3EEF46D1802440A002E99E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3EEF46E1802440A002E99E7 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C3EEF470180248E6002E99E7 /* BDKSlideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKSlideController.h; sourceTree = "<group>"; };
+		C3EEF471180248E6002E99E7 /* BDKSlideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKSlideController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 		C3EEF464180243C3002E99E7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C3EEF470180248E6002E99E7 /* BDKSlideController.h */,
+				C3EEF471180248E6002E99E7 /* BDKSlideController.m */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -200,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3EEF472180248E6002E99E7 /* BDKSlideController.m in Sources */,
 				C3EEF46C180243CE002E99E7 /* main.m in Sources */,
 				C3EEF46A180243CE002E99E7 /* BDKAppDelegate.m in Sources */,
 			);
